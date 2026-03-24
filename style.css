@@ -339,11 +339,13 @@ text-align: center;
 
 @media (max-width:600px) {
     #content1{
-        width: 150%;
+        width: 165%;
     }
     .text{
         padding-left: 20px;
     }
+    pre {
+        font-size :45px;}
 }
 @media (max-width:822px) {
   .imformation{
