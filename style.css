@@ -112,7 +112,7 @@ width: 30%;
   
 }
 pre{
-    font-family: 'Times New Roman', Times, serif;font-size:45px;
+    font-family: 'Times New Roman', Times, serif;font-size:50px;
 }
 #button
 {
@@ -853,3 +853,6 @@ flex-direction: column;
       height:100%;
     }
 }
+@media (max-width:353px){
+    pre{ font-size : 40px;}
+    
