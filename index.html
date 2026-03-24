@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css" integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+
+<body>
+ <header>
+<nav>
+    <div class="navbar">
+    <h1 id="tour">tour</h1>
+    <ul id="navlink">
+       <li><a href="">home</a></li>
+       <li><a href="">services</a></li>
+       <li><a href="">about</a></li>
+       <li><a href="">contact us</a></li>
+       <div class="dropdown">
+        <button class="dropbutton">dropdown</button>
+        <div class="droplist">
+            <a>list1</a>
+            <a>list2</a>
+            <a>list3</a>
+            </div>
+       </div>
+    </ul>
+          <div id="bars">
+<i class="fa-solid fa-bars"></i>
+      </div>
+    </div>
+    
+</nav>
+<div class="content">
+    <div class="text">
+<h1 id="head1">
+    <pre>Let's Enjoy Your
+Trip In London.</pre></h1>
+
+<div id="content1">
+<div class="imformation">
+    <select id="option">
+<option>Destination</option>
+<option>Japan</option>
+<option>London</option>
+<option>Peru</option>
+<option>Thailand</option>
+<option>United State</option>
+    </select>
+    <input type="date" placeholder="07/24/2025" id="date" style="">
+    <input type="text" placeholder="# of people" id="text" >
+</div>
+    <div class="search">
+    <button id="button">search</button> 
+    <div class="checkbox">
+      <input type="checkbox" id="search">
+        <label for="search"> save this search</label><br>
+    </div>
+    </div>
+</div>
+</div>
+<div class="image">
+    <img src="image/london.jpg" alt="">
+</div>
+</div>
+ </header>
+ <section class="section1">
+    <h2 id="head2">our services</h2>
+ <div class="para"><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae dolores quod dolorem eaque atque laborum quisquam doloribus maxime odit porro possimus impedit, alias labore voluptates hic dignissimos, eligendi voluptatibus ea.</p></div>
+    <div class="container">
+        <div class="image1"><img src="image/london.jpg" alt=""></div>
+        <div class="text1">
+            <div class="box">
+                <div class="box1">
+                <i class="fa-solid fa-house-chimney"></i>
+             <h3 class="head3">Beautiful Condo</h3>
+             <p class="para">Even the all-powerful Pointing has no control about the blind texts</p>
+            </div>
+               <div class="box1">
+           <i class="fa-solid fa-envelope-open-text"></i>
+             <h3 class="head3">Easy to Connect</h3>
+             <p class="para">Even the all-powerful Pointing has no control about the blind texts</p>
+            </div>
+            </div>
+               <div class="box">
+                <div class="box1">
+                <i class="fa-solid fa-utensils"></i>
+             <h3 class="head3">Restaurants & Cafe</h3>
+             <p class="para">Even the all-powerful Pointing has no control about the blind texts.</p>
+            </div>
+               <div class="box1">
+          <i class="fa-solid fa-phone-volume"></i>
+             <h3 class="head3">24/7 Support</h3>
+             <p class="para">Even the all-powerful Pointing has no control about the blind texts.</p>
+            </div>
+            </div>
+        </div>
+    </div>
+ </section>
+     <script>
+
+  const menu= document.getElementById("bars");
+  const nav= document.getElementById("navlink")
+  
+
+  menu.addEventListener("click", ()=>{
+    nav.classList.toggle('active');
+  })
+</script>
+<section>
+    <div class="section2">
+        <div class="number">
+            <h2 class="head2">9,313</h2>
+            <h4 class="head4">No. of Travels</h4>
+        </div>
+        <div class="number">
+            <h2 class="head2">8492</h2>
+            <h4 class="head4">No. of clients</h4>
+        </div>
+        <div class="number">
+            <h2 class="head2">100</h2>
+            <h4 class="head4">No. of employee</h4>
+        </div>
+        <div class="number" >
+            <h2 class="head2">120</h2>
+            <h4 class="head4">No. of countries</h4>
+        </div>
+    </div>
+</section>
+<section>
+    <div id="section3">
+        <h2 id="head3">Popular Destination</h2>
+        <div class="image2">
+            <div class="pic1">
+             <img src="image/hero-slider-4.jpg" alt="">
+                <div class="pictext">
+                    <h4>pragser wildsee</h4><p>italy</p>
+                </div>
+            </div>
+              <div class="pic1"><img src="image/hero-slider-5.jpg" alt="">
+                <div class="pictext">
+                    <h4>pragser wildsee</h4><p>italy</p>
+                </div>
+            </div>
+              <div class="pic1">
+                <img src="image/london.jpg" alt="">
+                <div class="pictext">
+                    <h4>pragser wildsee</h4><p>italy</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section>
+    <div class="section4">
+       <h2 id="head3">testimonials</h2> 
+       <span id="person"><img src="image/person_1.jpg" alt=""></span>
+       <h3 id="head4">lukas devlin</h3>
+       <p class="section4para">"there live the blind text. separated they live in bookmarksgrove right at the cost of the semantics , a largelanguage ocean."</p>
+    </div>
+</section>
+<section>
+    <div class="section5">
+<h2 id="head3">special offers & discounts</h2> 
+   <div class="para"> <p >Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p></div>
+    <div class="image3">
+        <div class="contents">
+            <img src="image/london.jpg" alt="">
+            <span class="texts"><i class="fa-solid fa-location-dot"></i>united states</span>
+            <h2>San Francisco</h2>
+            <h3>$520</h3>
+        </div>
+         <div class="contents">
+            <img src="image/hero-slider-4.jpg" alt="">
+            <span class="texts"><i class="fa-solid fa-location-dot"></i>united states</span>
+            <h2>San Francisco</h2>
+            <h3>$520</h3>
+        </div>
+         <div class="contents">
+            <img src="image/hero-slider-5.jpg" alt="">
+            <span class="texts"><i class="fa-solid fa-location-dot"></i>united states</span>
+            <h2>San Francisco</h2>
+            <h3>$520</h3>
+        </div>
+    </div>
+    </div>
+</section>
+<section>
+    <div class="section6">
+        <div class="image4"><img src="image/hero-slider-5.jpg" alt=""></div>
+        <div class="section6text">
+            <h3 id="head4">take a look at tour video</h3>
+            <div class="para1">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</div>
+            <div class="para1">A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.</div>
+        
+        <div class="lists">
+            <div class="list1">
+                <ul>
+                    <li>Outdoor recreation activities</li>
+                    <li>Cruise Lines</li>
+                    <li>Railways</li>
+                    <li>Package Tours</li>
+                    <li>Guide Books</li>
+                </ul>
+            </div>
+            <div class="list1">
+                <ul>
+                    <li>Airlines</li>
+                    <li>Car Rentals</li>
+                    <li>Hotels</li>
+                    <li>Travel Insurance</li>
+                    <li>Insurance</li>
+                </ul>
+            </div>
+        </div>
+        <button id="button1">get started</button>
+    </div>
+</section>
+<section>
+    <div class="section7">
+        <h2 id="head5">Lets you Explore the Best. Contact Us Now</h2>
+        <h3 id="head6">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi, fugit?
+        </h3>
+        <button id="button2">get in touch</button>
+    </div>
+</section>
+<footer>
+    <div class="footer">
+        <div id="divs"><h4 class="head5">about tour</h4>
+        <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+   <div class="icons"><i class="fa-brands fa-twitter"></i><i class="fa-brands fa-instagram"></i><i class="fa-brands fa-facebook-f"></i><i class="fa-brands fa-apple"></i>
+   </div>
+</div>
+        <div class="divs">  <h4 class="head5">pages</h4>
+            <ul>
+                <li>blog</li>
+                <li>about</li>
+                <li>contact</li>
+            </ul>
+           </div>
+        <div class="divs">
+            <h4 class="head5">resources</h4>
+            <ul>
+                <li>blog</li>
+                <li>about</li>
+                <li>contact</li>
+            </ul>
+        </div>
+        <div class="divs">
+            <h4 class="head5">contact</h4>
+            <li><i class="fa-solid fa-envelope"></i>mail@example.com</li>
+            <li><i class="fa-solid fa-phone"></i>+1 222 212 3819</li>
+            <li><i class="fa-solid fa-location-dot"></i>43 raymouthrd.baltemor,london 3910</li>
+
+        </div>
+    </div>
+</footer>
+</body>
+</html>
+  
