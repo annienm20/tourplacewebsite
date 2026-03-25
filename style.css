@@ -177,12 +177,12 @@ input{
 }
 @media (max-width:925px) {
     .image img{
-        width:70%;
+        width:100%;
         
     }
     .image{
         width: 80%;
-        margin-left: 50px;
+        margin-left: 30px;
         text-align: center;
     }
     .content{
@@ -190,6 +190,15 @@ input{
         flex-direction: column;
         gap: 30px;
         margin-left: 120px;
+    }
+    #content1{
+        width: 158%;
+    }
+    .text{
+        padding: 0px;
+    }
+    pre{
+        font-size: 75px;
     }
 
 }
@@ -296,13 +305,19 @@ text-align: center;
 }
 @media (max-width:800px) {
     .content{
-        margin-left: 10px;
+        margin-left: 70px;
     }
     /* .image1{
         padding-left: 200px;
     } */
      .text1{
         margin-left: 150px;
+    }
+    #content1{
+        width: 165%;
+    }
+    pre{
+        font-size: 60px;
     }
 }
 @media (max-width:700px) {
@@ -341,13 +356,26 @@ text-align: center;
 
 @media (max-width:600px) {
     #content1{
+<<<<<<< HEAD
         width: 165%;
+=======
+        width: 155%;
+>>>>>>> e183d4b (Updated CSS)
     }
     .text{
         padding-left: 20px;
     }
+<<<<<<< HEAD
     pre {
         font-size :45px;}
+=======
+    pre{
+        font-size: 50px;
+    }
+    .content{
+        margin-left: 30px;
+    }
+>>>>>>> e183d4b (Updated CSS)
 }
 @media (max-width:822px) {
   .imformation{
@@ -536,7 +564,13 @@ width: 90%;
     .pic1 img{
         height: 350px;
     }
+    #content1{
+        width: 165%;
+    }
 
+    pre{
+        font-size: 50px;
+    }
 }
 
 .section4{
@@ -701,6 +735,13 @@ width: 90%;
     }
       #head3{
         font-size: 30px;
+        
+    }
+    pre{
+        font-size: 38px;
+    }
+    #content1{
+        width: 150%;
     }
 }
 .section7{background-color: rgb(1, 1, 31);
