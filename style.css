@@ -352,30 +352,30 @@ text-align: center;
   }
 #content1{
     width: 110%;
-}
+}}
 
 @media (max-width:600px) {
     #content1{
-<<<<<<< HEAD
+
         width: 165%;
-=======
-        width: 155%;
->>>>>>> e183d4b (Updated CSS)
+
+      
+
     }
     .text{
         padding-left: 20px;
     }
-<<<<<<< HEAD
+
     pre {
         font-size :45px;}
-=======
+
     pre{
         font-size: 50px;
     }
     .content{
         margin-left: 30px;
     }
->>>>>>> e183d4b (Updated CSS)
+
 }
 @media (max-width:822px) {
   .imformation{
@@ -439,7 +439,7 @@ text-align: center;
         width: 80%;
     }
     .box1{
-        width:30%;
+        width:100%;
     }
     .text1{
         width: 80%;
@@ -449,12 +449,14 @@ text-align: center;
     .box1
     {
 width: 90%;
+
     }
     .text1{
         margin-left:0px ;
     }
     .box{
         margin-bottom: 30px;
+       
     }
 }
 @media (max-width:435px) {
@@ -899,5 +901,4 @@ flex-direction: column;
     }
 }
 @media (max-width:353px){
-    pre{ font-size : 35px;}
-    
+    pre{ font-size : 35px;}}
