@@ -1009,3 +1009,8 @@ flex-direction: column;
             font-size: 33px;
         }
     }
+    @media (max-width:315px) {
+        #head1{
+            font-size: 30px;
+        }
+    }
