@@ -122,7 +122,7 @@ width: 100%;
 }
 #head1{
     font-family: 'Times New Roman', Times, serif;font-size:60px;
-    width: 140%;
+    width: 100%;
 }
 #button{
     border-radius: 50px;
@@ -156,7 +156,7 @@ input{
 }
 @media (max-width:1000px) {
     #head1{
-      width: 140%;
+      width: 100%;
         font-size:60px ;
     }
     .imformation{
@@ -333,7 +333,7 @@ text-align: center;
         width: 185%;
     }
     #head1{
-        width: 140%;
+        width: 100%;
     
     }
 }
@@ -385,7 +385,7 @@ text-align: center;
     }
 
     #head1 {
-        width: 140%;
+        width: 100%;
        }
 
    
@@ -448,7 +448,7 @@ text-align: center;
 }
 @media (max-width:530px) {
     #head1{
-        width: 140%;
+        width: 100%;
        
     }
 }
@@ -489,7 +489,7 @@ width: 90%;
       #head1{
     
         word-spacing: 0px;
-        width: 140%;
+        width: 100%;
       }
       
 }
@@ -526,9 +526,7 @@ input[type="checkbox"] {
         flex-wrap:wrap ;
         gap: 60px;
     }
-    #head1{
 
-    }
 }
 /*section3*/
 #section3{
@@ -596,7 +594,7 @@ input[type="checkbox"] {
     }
 
     #head1{
-        width: 150%;
+        width: 100%;
         
     }
 }
@@ -778,7 +776,7 @@ input[type="checkbox"] {
         width: 100%;
     }
     #head1{
-        width: 140%;
+        width: 100%;
         font-size: 43px;
     }
     #content1{
@@ -886,7 +884,7 @@ input[type="checkbox"] {
 }
 @media (max-width:920px) {
     #head1{
-        width: 173%;
+        width: 100%;
         font-size: 85px;
     }
 }
