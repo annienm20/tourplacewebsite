@@ -121,8 +121,12 @@ width: 100%;
     border-radius: 5px;
 }
 #head1{
-    font-family: 'Times New Roman', Times, serif;font-size:60px;
-    width: 100%;
+      font-family: 'Times New Roman', Times, serif;
+    width: 200%;
+       font-size: clamp(35px, 4.8vw, 60px);
+
+    line-height: 1.2;
+    word-break: break-word;
 }
 #button{
     border-radius: 50px;
@@ -155,10 +159,7 @@ input{
     font-size: larger;
 }
 @media (max-width:1000px) {
-    #head1{
-      width: 100%;
-        font-size:60px ;
-    }
+   
     .imformation{
         display: flex;
         flex-wrap: wrap;
@@ -332,10 +333,7 @@ text-align: center;
     #content1{
         width: 185%;
     }
-    #head1{
-        width: 100%;
-    
-    }
+   
 }
 @media (max-width:700px) {
    
@@ -384,10 +382,7 @@ text-align: center;
         padding-left: 20px;
     }
 
-    #head1 {
-        width: 100%;
-       }
-
+  
    
     .content{
         margin-left: 30px;
@@ -446,12 +441,7 @@ text-align: center;
  
 }
 }
-@media (max-width:530px) {
-    #head1{
-        width: 100%;
-       
-    }
-}
+
 @media (max-width:560px) {
     .image1{
         width: 80%;
@@ -486,11 +476,7 @@ width: 90%;
         margin-left: 0px; 
         padding: 0px;
       }
-      #head1{
     
-        word-spacing: 0px;
-        width: 100%;
-      }
       
 }
 
@@ -593,10 +579,7 @@ input[type="checkbox"] {
         width: 198%;
     }
 
-    #head1{
-        width: 100%;
-        
-    }
+
 }
 
 .section4{
@@ -775,10 +758,7 @@ input[type="checkbox"] {
     #date{
         width: 100%;
     }
-    #head1{
-        width: 100%;
-        font-size: 43px;
-    }
+
     #content1{
         width: 198%;
     }
@@ -883,10 +863,7 @@ input[type="checkbox"] {
     
 }
 @media (max-width:920px) {
-    #head1{
-        width: 100%;
-        font-size: 85px;
-    }
+
 }
 @media (max-width:615px) {
    .section7{
@@ -950,65 +927,3 @@ flex-direction: column;
       height:100%;
     }
 }
-@media (max-width:353px){
-    #head1{ font-size : 35px;}}
-
-
-    @media (max-width:860px) {
-        #head1{
-            font-size: 75px;
-        }
-    }
-
-    @media (max-width:725px) {
-        #head1{
-            font-size: 70px;
-        }
-    }
-
-
-    @media (max-width:683px) {
-        #head1{
-            font-size: 65px;
-        }
-    }
-    @media (max-width:650pc) {
-        #head1{
-            font-size: 60px;
-        }
-    }
-
-    @media (max-width:603px) {
-        #head1{
-            font-size: 55px;
-        }
-    }
-    @media (max-width:562px) {
-        #head1{font-size: 50px;}
-    }
-    @media (max-width:515px) {
-        #head1{
-            font-size: 45px;
-        }
-    }
-
-     @media (max-width:475px) {
-        #head1{
-            font-size: 40px;
-        }
-    }
-     @media (max-width:375px) {
-        #head1{
-            font-size: 35px;
-        }
-    }
-     @media (max-width:340px) {
-        #head1{
-            font-size: 33px;
-        }
-    }
-    @media (max-width:315px) {
-        #head1{
-            font-size: 30px;
-        }
-    }
